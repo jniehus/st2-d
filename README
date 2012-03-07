@@ -1,0 +1,19 @@
+Enhanced D syntax highlighting for Sublime Text 2
+=================================================
+
+This is a version of ST2's built-in D syntax
+highlighter enhanced with various features that
+have been added to the language since D 2.0. It
+also fixes various bugs and oddities in the
+original syntax highlighter.
+
+Hopefully this will be merged into ST2 proper
+at some point.
+
+Files:
+
+* D.tmLanguage.orig - the original syntax
+  highlighter.
+* D.tmLanguage.diff - differences between
+  the enhanced highlighter and the original.
+* D.tmLanguage - the enhanced syntax highlighter.
