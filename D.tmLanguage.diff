@@ -1,5 +1,5 @@
 --- D.tmLanguage.orig	2012-01-26 17:21:33.000000000 +0100
-+++ D.tmLanguage	2012-03-07 19:56:33.235264996 +0100
++++ D.tmLanguage	2012-03-09 15:36:11.215887084 +0100
 @@ -42,7 +42,7 @@
  		<dict>
  			<key>begin</key>
@@ -188,7 +188,7 @@
  		<dict>
  			<key>match</key>
 -			<string>\b((?:tango|std)\.[\w\.]+)\b</string>
-+			<string>\b((?:tango|core|std)\.[\w\.]+)\b</string>
++			<string>[^\w\.](tango|core|std)\.[\w\.]+</string>
  			<key>name</key>
  			<string>support.type.d</string>
  		</dict>
