@@ -927,7 +927,7 @@
 							<string>#string_escaped_char</string>
 						</dict>
 					</array>
-				</dict>				
+				</dict>		
 			</array>
 		</dict>
 		<key>support-type-built-ins-classes-d</key>
